@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    /* Set defaults matching the theme */
+    @apply antialiased text-gray-800 bg-gray-50;
+  }
+}
+
+/* Custom scrollbar for chips */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
